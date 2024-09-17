@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #27292d;
+  --color-green-primary: #07c961;
+  --color-blue-primary: #4b93d0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
