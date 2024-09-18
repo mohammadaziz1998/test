@@ -23,11 +23,6 @@ const StyledAddHeaderText = styled.div`
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  font-family: Inter;
-  font-weight: 800;
-  line-height: 29.05px;
-  letter-spacing: 0.1em;
-  text-align: center;
 `;
 const STyledAddHeaderImg = styled.img`
   max-width: clamp(400px, 55vw, 692px);
@@ -51,7 +46,7 @@ const StyledNavHeaderLinks = styled.div`
   text-align: left;
 
   a {
-    color: var(--color-primary);
+    color: var(--color-black-secondary);
     padding: 0 1rem;
     text-decoration: none;
   }
@@ -82,7 +77,7 @@ function Header() {
           <STyledAddHeaderImg src="/addL.svg" alt="addimage" />
         </picture>
         <StyledAddHeaderText>
-          <Heading fontSize="24px">Black Friday Sale Save $100</Heading>
+          <Heading size="add">Black Friday Sale Save $100</Heading>
         </StyledAddHeaderText>
         <picture>
           <source srcSet="/addsmallR.svg" media="(max-width:600px)" />

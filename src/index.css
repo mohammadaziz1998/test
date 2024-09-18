@@ -1,11 +1,27 @@
 :root {
-  --color-primary: #27292d;
+  --color-black-primary: #3f3631;
+
+  --color-black-secondary: #27292d;
+  --color-black-third: #12151a;
+
+  --color-white-primary: #ffff;
+  --color-white-secondary: #f6f6f6;
+  --color-white-third: #fbfcfb;
+  --color-white-forth: #a4a4a5;
+
   --color-green-primary: #07c961;
   --color-blue-primary: #4b93d0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
